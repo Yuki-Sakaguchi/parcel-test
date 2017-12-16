@@ -1,4 +1,4 @@
-#  parcelを使ってみた
+# parcelを使ってみた
 webpackの代わりになると噂のparcelを使ってみた。
 
 ## ディレクトリ構成
@@ -35,6 +35,9 @@ npm run parcel
 node_modules/.bin/parcel src/index.html -d public
 ~~~
 上記は、「src/index.htmlをエントリーポイントとし、publickディレクトリに書き出す」というコマンド
+
+# demo
+https://yuki-sakaguchi.github.io/parcel-test/public/
 
 ## 感想
 勝手にwatch状態になるし、ビルドも早いのでそこそこ使えそう。  
